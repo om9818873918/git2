@@ -1,4 +1,4 @@
 module.exports.home= function(eq,res){
-    return res.end("Express is up in codial");
+    return res.render('home');
 }
 //module.exports.actionName=function(req,res){}
